@@ -106,9 +106,7 @@ function update ()
     }
     emitter.setPosition(x = logo.x + intRandom(-200, 200), y = logo.y + intRandom(-50, 50));
     emitter2.setPosition(x = logo.x + intRandom(-200, 200), y = logo.y) + intRandom(-50, 50);
-    console.log(newTime);
     startText.alpha = ((Math.sin(newTime / 500) + 1)  / 2) * .9 + .1;
-    console.log(startText.opacity);
     //emitter.width = 400;
     //emitter.height = 100;
     //emitter2.width = 400;
